@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "apinoitasmod:block/c4_lit" },
+    "lit=false": { "model": "apinoitasmod:block/c4_unlit" }
+  }
+}

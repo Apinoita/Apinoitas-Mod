@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "apinoitasmod",
+  "version": "${version}",
+
+  "name": "Apinoitas Mod",
+  "description": "Apinoitas mod includes small things that can be fun.",
+  "authors": [
+    "Apinoita"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/Apinoita/Apinoitas-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/apinoitasmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.apinoita.apinoitasmod.ApinoitasMod"
+    ]
+  },
+  "mixins": [
+    "apinoitasmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
